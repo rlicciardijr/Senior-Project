@@ -1,2 +1,3 @@
-# Senior-Project
-Mining Data for box office predictions
+##Senior-Project
+Mining Data movie box office predictions
+Create a tool to mine data from Twitter to make box office predictions
