@@ -98,8 +98,7 @@ def start_stream():
         try:
 
             twitter_stream = Stream(auth, MyListener())
-            twitter_stream.filter(track=['#Creed2', '#RalphBreaksTheInternet', '#RobinHood', '#TheFrontRunner',
-                                         '#GreenBookMovie'], )
+            twitter_stream.filter(track=['#Creed2', '#RalphBreaksTheInternet', '#RobinHood', '#GreenBookMovie'], )
 
         except Exception as e:
             logger.warning(e)
